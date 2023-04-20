@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link rel="icon" href="netflix.com.svg">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- javascript only -->
+  <!-- JavaScript Bundle with Popper -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/0fc8787d5f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+
+<body>
+  <div class="main-page">
+    <nav class="nav">
+      <img src="netflix.svg" alt="navlogo" class="brand-logo">
+      <ul class="right-container">
+        <!-- <li class="nav-items"> <button type="button" name="button" class=" btn lang-button"><i class="fa-solid fa-globe fa-sm"></i> english</button></li> -->
+
+        <div class="input-group mb-3">
+          <!-- <input type="text" class="form-control" aria-label="Text input with dropdown button"> -->
+          <!-- <button class="btn btn-outline-secondary dropdown-toggle " type="button" data-bs-toggle="dropdown" aria-expanded="false">English</button> -->
+
+          <button class="btn btn-outline-secondary dropdown-toggle btn lang-button " type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe fa-sm"></i> English</button>
+          
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#" onclick="alert('Sorry, Hindi language is unsupported')">Hindi</a></li>
+              
+      
+           <!-- <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+          </ul>
+        </div>
+
+        <li class="nav-items"> <button type="button" name="button" class=" btn btn sign-button">Sign-in</button></li>
+      </ul>
+    </nav>
+    <!-- header and para content -->
+    <div class="head-content">
+      <div class="primary">
+        <h1 class="heading1">Unlimited movies, TV shows and more.</h1>
+        <h3 class="heading2">Watch anywhere. Cancel anytime.</h3>
+      </div>
+
+      <div class="secondary">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="email" name="" value="" placeholder="Email address" class="mail">
+        <button type="button" class="btn mail-btn" name="button"> Get started <i class="fa-solid fa-angle-right fa-sm"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- tv div -->
+  <div class="row row-tv">
+    <div class="col-lg-6 tv-text">
+      <h1 class="tv-heading">Enjoy on your TV.</h1>
+      <h3 class="tv-mini-heading">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+    </div>
+    <div class="col-lg-6 tv">
+      <img src="tv.png" alt="tvImage" class="tv-image">
+      <video src="video-tv.m4v" autoplay poster="posterimage.jpg" class="video-tv" muted loop></video>
+    </div>
+
+  </div>
+
+  <!-- mobile div -->
+  <div class="row row-tv">
+    <div class="col-lg-6 mobile">
+      <img src="mobile.jpeg" alt="mobile" class="mobile-image">
+      <div class="div-image">
+        <img src="stranger.png" alt="" class="stranger">
+        <!-- image textarea -->
+        <div class="div-text">
+          <h4 class="stranger-head">Stranger things</h4>
+          <h5 class="stranger-para">Downloading...</h5>
+        </div>
+        <!-- image gif area -->
+        <div class="right--contain">
+          <img src="download.gif" alt="download-GIF" class="gif" mute loop>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6 mobile-text">
+      <h1 class="mobile-heading">Download your shows to watch offline.</h1>
+      <h3 class="mobile-mini-heading">Save your favourites easily and always have something to watch.</h3>
+    </div>
+  </div>
+
+  <!-- monito div -->
+  <div class="row row-monitor">
+    <div class="col-lg-6 tv-text">
+      <h1 class="tv-heading">Watch everywhere.</h1>
+      <h3 class="tv-mini-heading">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+    </div>
+    <div class="col-lg-6 tv">
+      <img src="monitor.png" alt="tvImage" class="monitor-image">
+      <video src="monitor-video.m4v" autoplay poster="posterimage.jpg" class="video-monitor" muted loop></video>
+    </div>
+  </div>
+
+  <!-- children div -->
+  <div class="row row-tv children">
+    <div class="col-lg-6 mobile">
+      <img src="children.png" alt="mobile-image" class="mobile-image child">
+    </div>
+    <div class="col-lg-6 mobile-text">
+      <h1 class="mobile-heading">Create profiles for children.</h1>
+      <h3 class="mobile-mini-heading">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+    </div>
+  </div>
+
+  <!-- Questions sections -->
+
+  <h1 id="FAQ" class="heading-last">Frequently Asked Questions</h1>
+  <!-- questions start from here -->
+  <div class="faq">
+    <div class="question">
+      <p class="question-para">What is Netflix?</p>
+      <span class="material-symbols-outlined ad ms-auto">
+        add
+      </span>
+      <span class="material-symbols-outlined close cl ms-auto">
+close
+</span>
+    </div>
+    <div class="disable dis">
+      <p class="question-para">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</p>
+      <br>
+      <p class="question-para">You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+    </div>
+
+  </div>
+
+  <div class="faq">
+    <div class="question">
+      <p class="question-para">How much does Netflix costs?</p>
+      <span class="material-symbols-outlined ad ms-auto">
+        add
+      </span>
+      <span class="material-symbols-outlined close cl ms-auto">
+close
+</span>
+    </div>
+    <div class="disable dis ">
+      <p class="question-para">
+        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+      </p>
+    </div>
+
+  </div>
+
+
+  <div class="faq">
+    <div class="question">
+      <p class="question-para">Where I can watch?</p>
+      <span class="material-symbols-outlined ad ms-auto">
+        add
+      </span>
+      <span class="material-symbols-outlined close cl ms-auto">
+close
+</span>
+    </div>
+    <div class="disable dis">
+      <p class="question-para">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs,
+        smartphones, tablets, streaming media players and game consoles.</p> <br>
+      <p class="question-para">You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+    </div>
+
+  </div>
+
+
+
+  <div class="faq">
+    <div class="question">
+      <p class="question-para">How do I cancel?</p>
+      <span class="material-symbols-outlined ad ms-auto">
+        add
+      </span>
+      <span class="material-symbols-outlined close cl ms-auto">
+close
+</span>
+    </div>
+    <div class="disable dis">
+      <p class="question-para">Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+    </div>
+
+  </div>
+
+
+
+  <div class="faq">
+    <div class="question">
+      <p class="question-para">Where can I watch?</p>
+      <span class="material-symbols-outlined ad ms-auto">
+        add
+      </span>
+      <span class="material-symbols-outlined close cl ms-auto">
+close
+</span>
+    </div>
+    <div class="disable dis">
+      <p class="question-para">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+    </div>
+
+  </div>
+
+
+
+  <div class="faq">
+    <div class="question">
+      <p class="question-para">Is Netflix good for kids?</p>
+      <span class="material-symbols-outlined ad ms-auto">
+        add
+      </span>
+      <span class="material-symbols-outlined close cl ms-auto">
+close
+</span>
+    </div>
+    <div class="disable dis ">
+      <p class="question-para">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.</p> <br>
+      <p class="question-para">Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+    </div>
+
+  </div>
+
+  <div class="secondary sec-mail">
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <input type="email" name="" value="" placeholder="Email address" class="mail">
+    <button type="button" class="btn mail-btn " name="button"> Get started <i class="fa-solid fa-angle-right fa-sm"></i></button>
+  </div>
+
+
+<!-- FOOTER -->
+
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <!-- <div class="col-6 col-md-2 mb-3"> -->
+      <div class="col-sm-3">
+        <!-- <h5>Section</h5> -->
+        <ul class="nav flex-column foottext">
+          <li class="nav-item mb-2"><a href="#FAQ" class="nav-link p-0 text-body-secondary" style="color:grey">FAQ</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Investor Relations</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Privacy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Speed Test</a></li>
+          <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-decoration-underline">About</a></li> -->
+        </ul>
+      </div>
+
+      <!-- <div class="col-6 col-md-2 mb-3"> -->
+      <div class="col-sm-3">
+        <!-- <h5>Section</h5> -->
+        <ul class="nav flex-column foottext ">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Help Centre</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Jobs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Cookie Preferences</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Legal Notices</a></li>
+          <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary text-decoration-underline">About</a></li> -->
+        </ul>
+      </div>
+
+      <!-- <div class="col-6 col-md-2 mb-3"> -->
+        <div class="col-sm-3">
+        <!-- <h5>Section</h5> -->
+        <ul class="nav flex-column foottext">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Account</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Ways to Watch</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Corporate Information</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Only on Netflix</a></li>
+        </ul>
+      </div>
+
+      <!-- <div class="col-6 col-md-2 mb-3"> -->
+      <div class="col-sm-3">
+        <!-- <h5>Section</h5> -->
+        <ul class="nav flex-column foottext">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Media Centre</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Terms of Use</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary" style="color:grey">Contact Us</a></li>
+        </ul>
+      </div>
+    
+
+
+      <!-- <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address" fdprocessedid="dv13p">
+            <button class="btn btn-primary" type="button" fdprocessedid="wn21tj">Subscribe</button>
+          </div>
+        </form>
+      </div>  -->
+    
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+
+      <button class="btn btn-outline-secondary dropdown-toggle btn lang-button " type="button" 
+          data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-globe fa-sm"></i> English</button>
+
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item"  href="#" onclick="alert('Sorry, Hindi language is unsupported')">Hindi</a> </li>
+     
+      <!-- <p>© 2023 Company, Inc. All rights reserved.</p> -->
+      <!-- <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul> -->
+    </div>
+    <h6 style= "font-family: sans-serif; font-size: 14px;">Netflix India</h6>
+  </footer>
+  </div>
+</div>
+
+  <!-- JAVASCRIPT TAGS -->
+  
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"> </script>
+</body>
+
+</html>
